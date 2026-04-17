@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chanakya Competitive Coaching Centre - Best Exam Prep in Medinipur</title>
+    <meta name="description" content="Join Chanakya Coaching Centre in Medinipur for SSC, Rail, Banking, Police, and Nursing exam preparation. Offering online/offline classes and residential facilities.">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-blue: #002366;
+            --primary-yellow: #FFD700;
+            --accent-red: #d32f2f;
+            --success-green: #2e7d32;
+            --white: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        /* Sticky Header */
+        header {
+            background: var(--primary-blue);
+            padding: 15px 5%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        .logo {
+            color: var(--primary-yellow);
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .call-btn-top {
+            background: var(--success-green);
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,35,102,0.8), rgba(0,35,102,0.8)), url('https://via.placeholder.com/1200x600?text=Classroom+Image'); /* Replace with actual image */
+            background-size: cover;
+            background-position: center;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            color: var(--primary-yellow);
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .cta-btn {
+            background: var(--accent-red);
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+
+        .cta-btn:hover {
+            transform: scale(1.05);
+        }
+
+        /* Course Grid */
+        .courses {
+            padding: 50px 5%;
+            text-align: center;
+        }
+
+        .section-title {
+            color: var(--primary-blue);
+            margin-bottom: 30px;
+            font-size: 2rem;
+            border-bottom: 3px solid var(--primary-yellow);
+            display: inline-block;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        .course-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            font-weight: bold;
+            color: var(--primary-blue);
+            border-top: 5px solid var(--primary-yellow);
+        }
+
+        /* Features */
+        .features {
+            background: var(--primary-blue);
+            color: white;
+            padding: 50px 5%;
+            text-align: center;
+        }
+
+        .feature-item {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px dashed var(--primary-yellow);
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 50px 5%;
+            background: white;
+            text-align: center;
+        }
+
+        .phone-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .phone-btn {
+            background: var(--primary-blue);
+            color: white;
+            width: 280px;
+            padding: 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        /* Mobile Responsive adjustments */
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 1.8rem; }
+            .grid { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">CHANAKYA COACHING</div>
+        <a href="tel:8116415329" class="call-btn-top">📞 Call Now</a>
+    </header>
+
+    <section class="hero">
+        <h1>চাণক্য কম্পিটিটিভ কোচিং সেন্টার</h1>
+        <p>মেদিনীপুর, ৭২১১০১ | অনলাইন ও অফলাইন উভয় মাধ্যমে ক্লাস</p>
+        <a href="https://wa.me/918116415329" class="cta-btn">ভর্তি চলছে - এখনই যোগাযোগ করুন</a>
+    </section>
+
+    <section class="courses">
+        <h2 class="section-title">আমাদের কোর্সসমূহ</h2>
+        <div class="grid">
+            <div class="course-card">RAIL</div>
+            <div class="course-card">BANK</div>
+            <div class="course-card">POLICE</div>
+            <div class="course-card">PSC</div>
+            <div class="course-card">AGNIVEER</div>
+            <div class="course-card">ARMY</div>
+            <div class="course-card">GROUP C/D</div>
+            <div class="course-card">SSC GD</div>
+            <div class="course-card">C-TET</div>
+            <div class="course-card">PRIMARY TET</div>
+            <div class="course-card">NURSING</div>
+            <div class="course-card">SSC MTS/CGL</div>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 style="color: var(--primary-yellow);">কেন আমাদের বেছে নেবেন?</h2>
+        <div class="feature-item">
+            <h3>আবাসিক সুবিধা</h3>
+            <p>Physical Training সহ থাকার সুব্যবস্থা রয়েছে।</p>
+        </div>
+        <div class="feature-item">
+            <h3>অন্যান্য শাখা</h3>
+            <p>কুলটিকরী ও কেশিয়াড়ী</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2 class="section-title">যোগাযোগ করুন</h2>
+        <div class="phone-links">
+            <a href="tel:8116415329" class="phone-btn">📞 8116415329</a>
+            <a href="tel:7501415329" class="phone-btn">📞 7501415329</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Chanakya Coaching Centre. All Rights Reserved.</p>
+        <p>Developed by Shantanu</p>
+    </footer>
+
+</body>
+</html>
